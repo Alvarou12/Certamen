@@ -173,3 +173,94 @@ blockquote {
         width: 90%;
     }
 }
+
+.habilidades{
+    padding: 50px 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+.titulo {
+    background-color: white;
+    width: 600px;
+    text-align: center;
+    margin: 40px auto;
+
+}
+
+.tabla {
+    margin: 50px auto;
+    width: 650px;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow:0 5px 15px rgb(61, 59, 59);;
+}
+
+th{
+    background:#1f3b5b;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 12px
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #b1b1b1;
+}
+
+tr:nth-child(even){
+    background: #b1afaf;
+}
+
+
+.barra {
+    width: 100%;
+    height: 8px;
+    background: #cecece;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progreso {
+    display:block;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.html { width: 80%; background: orange; }
+.css{ width: 60%; background: blue; }
+.java { width: 50%; background: red;}
+
+
+.contenedorDos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap:wrap;
+}
+
+.cajaInfo {
+    flex: 1 1 250;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    background-color: #f9f9f9;
+
+}
+
+.cajaInfo h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.cajaInfo ol, ul{
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.cajaInfo li{
+
+    padding: 10px;
+}
