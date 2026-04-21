@@ -401,3 +401,41 @@ button {
         grid-template-columns: 1fr;
     }
 }
+
+.footer {
+    background-color:#1f3b5b;
+    color: white;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.footer-contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.redes a{
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.redes a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width:600px) {
+    .footer-contenido {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .redes a {
+        margin: 0 10px;
+    }
+}
