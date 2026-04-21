@@ -173,5 +173,60 @@
 
     </section>
 
+    <section id="contacto" class="contacto">
+        <div class = "titulodos">
+            <h2>Contacto</h2>
+            <p>Enviame un mensaje</p>
+        </div>
+
+        <div class= "contenedor-contacto">
+            
+            <form action="/contacto" method="POST">
+
+                <div class="fila">
+                    <div>
+                        <label for="nombre">Nombre completo</label>
+                        <input type="text" id="nombre" name="nombre"
+                        placeholder="Tu nombre"
+                        requiered minlength="3">
+                    </div>
+
+                    <div>
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email"
+                        placeholder="tu@email.com"
+                        required >
+                    </div>
+                </div>
+
+                <div>
+                    <label for="asunto">Asunto</label>
+                    <select id="asunto" name="asunto">
+                        <option value="">Selecciona...</option>
+                        <option value="asunto1">Asunto 1</option>
+                        <option value="asunto2">Asunto 2</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="msg">Mensaje</label>
+                    <textarea id="msg" name="mensaje" rows="4"
+                    placeholder="Escribe tu mensaje aqui" required></textarea>
+                </div>
+
+                <button type="submit">Enviar mensaje</button>
+            </form>
+
+            <div class="info">
+                <h3>Información de contacto</h3>
+                <ul>ulloahenriquez.alvaro@gmail.com</ul>
+                <ul>Coronel, Chile</ul>
+                <ul>+56 9 1234 5678</ul>
+                <a href="https://www.github.com/Alvarou12">github.com/Alvarou12</a>
+
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
